@@ -1,4 +1,4 @@
-# Django page cache #
+<h1 style="color: #a4c7f7;">Django page cache</h1>
 
 # settings:
 
@@ -6,8 +6,8 @@ PAGE_CACHE = { }
 
 # views:
 
-from django.template.response import HttpResponse, RequestContext
-from page_cache.cache import cache
+from django.template.response import HttpResponse, RequestContext<br>
+from page_cache.cache import cache<br><br>
 
 
 page_index = 'index'
