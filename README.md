@@ -13,31 +13,31 @@ from page_cache.cache import cache
 page_index = 'index'
 cache_index = 1
 pages = cache( )
-template = pages.add(
-'capa/index.html',
-request,
-page_index,
-cache_index
+template = pages.add(<br>
+    'capa/index.html',<br>
+    request,<br>
+    page_index,<br>
+    cache_index<br>
 )
 
 return HttpResponse( template.get( page_index )[0] )
     
 # add yours context request:    
 
-c = RequestContext(request, {
-'user':user,
-'posts':posts,
-'title':title,
-'menu':menu,
- })
+c = RequestContext(request, {<br>
+    'user':user,<br>
+    'posts':posts,<br>
+    'title':title,<br>
+    'menu':menu,<br>
+ })<br>
 
-page_index = 'index'
-cache_index = 1
-pages = cache( )
-template = pages.add(
-'capa/index.html',
-c,
-page_index,
-cache_index
-)
+page_index = 'index'<br>
+    cache_index = 1<br>
+    pages = cache( )<br>
+    template = pages.add(<br>
+    'capa/index.html',<br>
+    c,<br>
+    page_index,<br>
+    cache_index<br>
+)<br>
 
