@@ -2,7 +2,9 @@
 
 # settings:
 
-PAGE_CACHE = { }
+PAGE_CACHE = { }<br><br>
+
+Add in INSTALLED_APPS<br><br>
 
 # views:
 
