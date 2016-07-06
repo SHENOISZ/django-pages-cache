@@ -1,1 +1,1 @@
-### Django page cache #
+### Django pages cache #
