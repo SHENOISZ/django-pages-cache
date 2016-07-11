@@ -2,10 +2,9 @@
 
 ## Install
 
-```
-	pip install django-pages-cache
-
-```
+``
+pip install django-pages-cache
+``
 
 Documentation
 -----------------
