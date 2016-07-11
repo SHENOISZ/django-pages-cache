@@ -1,10 +1,14 @@
 # Django pages cache #
 
+`
+Utility to create pages with caching using memcached.
+`
+
 ## Install
 
-``
+`
 pip install django-pages-cache
-``
+`
 
 Documentation
 -----------------
