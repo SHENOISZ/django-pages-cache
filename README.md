@@ -1,18 +1,16 @@
 # Django pages cache #
-======================
 
-===============================
-### Installation
+### Install
+-----------------
 
 pip install django-pages-cache
 
-===============================
 
 Documentation
 -----------------
 
 `
- http://django-pages-cache.readthedocs.io/en/latest/
+ <http://django-pages-cache.readthedocs.io/en/latest/>
 `
 
 
