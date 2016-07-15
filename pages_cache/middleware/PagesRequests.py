@@ -18,7 +18,7 @@ class GetPageRequest( object ):
         #=============================================
         if request.user.is_authenticated( ):
 
-            settings.PAGE_SESSION = '|'+ str( request.META['HTTP_COOKIE'] )
+            settings.PAGE_SESSION = '|'+ str( request.META['HTTP_COOKIE'] ).replace(' ', '')
 
         #======================================
         #        create key for cache
