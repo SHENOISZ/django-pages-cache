@@ -8,6 +8,7 @@ Welcome to django-pages-cache's documentation!
 **********************************************
 
 Contents:
+
 .. toctree::
    :maxdepth: 2
 
