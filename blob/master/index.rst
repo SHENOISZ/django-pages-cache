@@ -14,7 +14,7 @@ Installation
 settings
 --------
 
-:
+.. highlight:: python+django:
 
     MIDDLEWARE_CLASSES = [
         # add middleware
@@ -27,7 +27,7 @@ Getting Started
 Using class CacheViews
 ----------------------
 
-:
+.. highlight:: python+django:
 
     from django.shortcuts import render
 
@@ -47,7 +47,7 @@ Using class CacheViews
 Using class CacheViews with expire
 ----------------------------------
 
-:
+.. highlight:: python+django:
 
     from django.shortcuts import render
 
