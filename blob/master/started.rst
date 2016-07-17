@@ -2,12 +2,11 @@
 Getting Started
 ***************
 
-===============
 Getting Started
 ===============
 
 Using class CacheViews
-----------------------
+======================
 
 .. highlight:: python
 
@@ -29,7 +28,7 @@ Example::
  
 
 Using class CacheViews with expire
-----------------------------------
+==================================
 
 .. highlight:: python
 
