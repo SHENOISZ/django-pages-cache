@@ -14,7 +14,7 @@ Installation
 settings
 --------
 
-Simple::
+:
 
     MIDDLEWARE_CLASSES = [
         # add middleware
@@ -27,7 +27,7 @@ Getting Started
 Using class CacheViews
 ----------------------
 
-Simple::
+:
 
     from django.shortcuts import render
 
@@ -47,7 +47,7 @@ Simple::
 Using class CacheViews with expire
 ----------------------------------
 
-Simple::
+:
 
     from django.shortcuts import render
 
