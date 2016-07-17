@@ -9,7 +9,7 @@ Welcome to django-pages-cache's documentation!
 
 Contents:
 
-   :maxdepth: 2
+   :maxdepth: 5
 
     installation  
     started      
