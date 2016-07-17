@@ -10,7 +10,7 @@ Welcome to django-pages-cache's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 10
 
     installation  
     started      
