@@ -14,7 +14,7 @@ Installation
 settings
 --------
 
-.. highlight:: python+django
+.. highlight:: python
 
 Example::
 
@@ -23,13 +23,14 @@ Example::
         'pages_cache.middleware.PagesRequests.GetPageRequest'
     ]
 
+===============
 Getting Started
 ===============
 
 Using class CacheViews
 ----------------------
 
-.. highlight:: python+django
+.. highlight:: python
 
 Example::
 
@@ -51,7 +52,7 @@ Example::
 Using class CacheViews with expire
 ----------------------------------
 
-.. highlight:: python+django
+.. highlight:: python
 
 Example::
 
