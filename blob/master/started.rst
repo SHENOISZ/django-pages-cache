@@ -1,6 +1,6 @@
-***************
+==============
 Getting Started
-***************
+==============
 
 
 Using class CacheViews
@@ -23,7 +23,7 @@ Example::
     def home( request ):
 
         return render( request, 'index.html' )
- 
+
 
 Using class CacheViews with expire
 ==================================
@@ -41,9 +41,9 @@ Example::
 
     register = CacheViews( )
 
-    @register.cache_view( 
-            key_prefix='home-index', 
-            expire=60 * 15 
+    @register.cache_view(
+            key_prefix='home-index',
+            expire=60 * 15
         )
     def home( request ):
 
