@@ -2,8 +2,6 @@
 Getting Started
 ***************
 
-Getting Started
-===============
 
 Using class CacheViews
 ======================
