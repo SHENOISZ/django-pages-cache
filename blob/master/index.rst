@@ -7,11 +7,20 @@
 Welcome to django-pages-cache's documentation!
 ==============================================
 
-.. includes 
 
-installation  
-started 
+.. toctree::
+    :maxdepth: 2
+    :caption: Installation & Settings
+    pip  
+    settings 
 
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Getting Started
+
+    Using class CacheViews
+    Using class CacheViews with expire
 
 Indices and tables
 ==================
