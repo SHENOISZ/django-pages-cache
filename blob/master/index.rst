@@ -12,16 +12,15 @@ Contents:
 .. toctree::
     :maxdepth: 2
     :caption: Installation & Settings
-    pip  
-    settings 
+    
+    installation
 
 
 .. toctree::
     :maxdepth: 2
     :caption: Getting Started
 
-    Using class CacheViews
-    Using class CacheViews with expire
+    started
 
 Indices and tables
 ==================
