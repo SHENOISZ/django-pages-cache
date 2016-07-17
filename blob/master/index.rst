@@ -22,6 +22,12 @@ Contents:
 
     started
 
+.. toctree::
+    :maxdepth: 2
+    :caption: About
+
+    about   
+
 Indices and tables
 ==================
 
