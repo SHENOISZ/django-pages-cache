@@ -11,6 +11,13 @@ Welcome to django-pages-cache's documentation!
 Installation
 ============
 
+pip
+--------
+
+Example::
+
+    pip install django-pages-cache
+
 settings
 --------
 
