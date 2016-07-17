@@ -1,17 +1,19 @@
-=======================
+***********************
 Installation & Settings
-=======================
+***********************
 
+Installation
+============
 
 pip
----
+===
 
 Example::
 
     pip install django-pages-cache
 
 settings
---------
+========
 
 .. highlight:: python
 
