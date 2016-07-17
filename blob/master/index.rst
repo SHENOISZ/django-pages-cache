@@ -7,10 +7,11 @@
 Welcome to django-pages-cache's documentation!
 ==============================================
 
-Contents:
+.. includes 
 
-   installation  
-   started    
+installation  
+started 
+
 
 Indices and tables
 ==================
