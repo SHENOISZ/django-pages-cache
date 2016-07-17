@@ -198,3 +198,29 @@ Example::
     def home( request ):
 
         return render( request, 'index.html' )
+
+
+Clear cache with class CacheViews
+================================= 
+
+Clear a view using `cached.clear_cache( key_prefix='home-index' )`_       
+
+.. highlight:: python
+
+Example::
+
+    from django.shortcuts import render
+
+    # Django pages cache
+    from pages_cache.pages_decorators import CacheViews
+
+    # Create your views here.
+
+    cached = CacheViews( )
+
+
+    def clear( request ):
+
+        cached.clear_cache( key_prefix='home-index' ) 
+
+        return render( request, 'clear.html' )
