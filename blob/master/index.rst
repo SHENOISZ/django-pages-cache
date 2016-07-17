@@ -8,9 +8,11 @@ Welcome to django-pages-cache's documentation!
 ==============================================
 
 Contents:
+.. toctree::
+   :maxdepth: 2
 
    installation  
-   started      
+   started    
 
 Indices and tables
 ==================
