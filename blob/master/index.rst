@@ -11,20 +11,20 @@ Install
 =======
 
 settings
------------
-`
+--------
+
 MIDDLEWARE_CLASSES = [
     # add middleware
     'pages_cache.middleware.PagesRequests.GetPageRequest'
 ]
-`
+
 Getting Started
 ===============
 
 Using class CacheViews
 ----------------------
 
-`
+
 from django.shortcuts import render
 
 # Django pages cache
@@ -38,12 +38,12 @@ register = CacheViews( )
 def home( request ):
 
     return render( request, 'index.html' )
-`   
+ 
 
 Using class CacheViews with expire
 ----------------------------------
 
-`
+
 from django.shortcuts import render
 
 # Django pages cache
@@ -60,4 +60,3 @@ register = CacheViews( )
 def home( request ):
 
     return render( request, 'index.html' )
-`
