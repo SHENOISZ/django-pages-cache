@@ -203,7 +203,7 @@ Example::
 Clear cache with class CacheViews
 ================================= 
 
-Clear a view using ``cached.clear_cache( key_prefix='home-index' )``    
+Clear a view using ``clear_cache( key_prefix='home-index' )``    
 
 .. highlight:: python
 
