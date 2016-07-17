@@ -7,8 +7,9 @@ Welcome to django-pages-cache's documentation!
 ==============================================
 
 
-Install
-=======
+============
+Installation
+============
 
 settings
 --------
