@@ -14,10 +14,12 @@ Installation
 settings
 --------
 
-MIDDLEWARE_CLASSES = [
-    # add middleware
-    'pages_cache.middleware.PagesRequests.GetPageRequest'
-]
+Simple::
+
+    MIDDLEWARE_CLASSES = [
+        # add middleware
+        'pages_cache.middleware.PagesRequests.GetPageRequest'
+    ]
 
 Getting Started
 ===============
@@ -25,39 +27,49 @@ Getting Started
 Using class CacheViews
 ----------------------
 
+Simple::
 
-from django.shortcuts import render
+    from django.shortcuts import render
 
-# Django pages cache
-from pages_cache.pages_decorators import CacheViews
+    # Django pages cache
+    from pages_cache.pages_decorators import CacheViews
 
-# Create your views here.
+    # Create your views here.
 
-register = CacheViews( )
+    register = CacheViews( )
 
-@register.cache_view( key_prefix='home-index' )
-def home( request ):
+    @register.cache_view( key_prefix='home-index' )
+    def home( request ):
 
-    return render( request, 'index.html' )
+        return render( request, 'index.html' )
  
 
 Using class CacheViews with expire
 ----------------------------------
 
+Simple::
 
-from django.shortcuts import render
+    from django.shortcuts import render
 
-# Django pages cache
-from pages_cache.pages_decorators import CacheViews
+    # Django pages cache
+    from pages_cache.pages_decorators import CacheViews
 
-# Create your views here.
+    # Create your views here.
 
-register = CacheViews( )
+    register = CacheViews( )
 
-@register.cache_view( 
-        key_prefix='home-index', 
-        expire=60 * 15 
-    )
-def home( request ):
+    @register.cache_view( 
+            key_prefix='home-index', 
+            expire=60 * 15 
+        )
+    def home( request ):
 
-    return render( request, 'index.html' )
+        return render( request, 'index.html' )
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
