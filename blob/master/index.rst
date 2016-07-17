@@ -3,11 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to django-pages-cache's documentation!
+# Welcome to django-pages-cache's documentation! #
 
 
 Install
 =======
+
+settings
+-----------
 
 MIDDLEWARE_CLASSES = [
     # add middleware
@@ -20,7 +23,7 @@ Getting Started
 Using class CacheViews
 ----------------------
 
-```
+
 from django.shortcuts import render
 
 # Django pages cache
@@ -34,13 +37,12 @@ register = CacheViews( )
 def home( request ):
 
     return render( request, 'index.html' )
-
-```
+   
 
 Using class CacheViews with expire
 ----------------------------------
 
-```
+
 from django.shortcuts import render
 
 # Django pages cache
@@ -57,5 +59,3 @@ register = CacheViews( )
 def home( request ):
 
     return render( request, 'index.html' )
-
-```
