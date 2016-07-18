@@ -8,7 +8,8 @@ Welcome to django-pages-cache's documentation!
 ==============================================
 
 
-Github: .. image:: https://raw.githubusercontent.com/SHENOISZ/django-pages-cache/master/blob/master/_static/images/logo_github.png
+Github: 
+.. image:: https://raw.githubusercontent.com/SHENOISZ/django-pages-cache/master/blob/master/_static/images/logo_github.png
            :target: https://github.com/SHENOISZ/django-pages-cache
 
 Contents:
