@@ -16,8 +16,18 @@ class Home( View ):
 
         return render( request, 'index.html')
 
+
 class HomePage( View ):
     
     def get ( self, request, *args, **kwargs ):
 
-        return render( request, 'page.html')        
+        return render( request, 'page.html')  
+
+
+class ClearCache( View ):
+
+    def get ( self, request, *args, **kwargs ):
+        
+        register.clear_cache( key_prefix='home-index' ) 
+
+        return render( request, 'clear.html' )                 
