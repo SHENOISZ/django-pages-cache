@@ -7,7 +7,7 @@
 Welcome to django-pages-cache's documentation!
 **********************************************
 
-<https://github.com/SHENOISZ/django-pages-cache>
+https://github.com/SHENOISZ/django-pages-cache
 
 Contents:
 
