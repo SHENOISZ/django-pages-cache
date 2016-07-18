@@ -12,7 +12,7 @@ Contents:
 .. toctree::
     :maxdepth: 2
     :caption: Installation & Settings
-    
+
     installation
 
 
@@ -26,11 +26,10 @@ Contents:
     :maxdepth: 2
     :caption: About
 
-    about   
+    about
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
