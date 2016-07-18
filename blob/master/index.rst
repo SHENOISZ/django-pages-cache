@@ -24,6 +24,12 @@ Contents:
 
 .. toctree::
     :maxdepth: 2
+    :caption: A little more
+
+    more    
+
+.. toctree::
+    :maxdepth: 2
     :caption: About
 
     about
