@@ -224,3 +224,62 @@ Example::
         cached.clear_cache( key_prefix='home-index' ) 
 
         return render( request, 'clear.html' )
+
+Clear cache with class CacheViews by url
+========================================         
+
+Clear a view using ``clear_cache_url( key_prefix='your-views' )``    
+
+.. highlight:: python
+
+Example::
+
+    from django.shortcuts import render
+
+    # Django pages cache
+    from pages_cache.pages_decorators import CacheViews
+
+    # Create your views here.
+
+    cached = CacheViews( )
+
+
+    def clear( request ):
+
+        cached.clear_cache_url( url='www.test.com:8000/detalhes' ) 
+
+        return render( request, 'clear.html' )
+
+
+
+Clear cache with class CacheViews by url list
+=============================================         
+
+Clear a view using ``clear_cache_url( key_prefix='yours-views' )``    
+
+.. highlight:: python
+
+Example::
+
+    from django.shortcuts import render
+
+    # Django pages cache
+    from pages_cache.pages_decorators import CacheViews
+
+    # Create your views here.
+
+    cached = CacheViews( )
+
+
+    def clear( request ):
+
+        url = [
+            'pt.test.com:8000/detalhes', 
+            'www.test.com:8000/detalhes', 
+            'es.test.com:8000/detalhes', 
+            'en.test.com:8000/detalhes'
+        ]
+
+        cached.clear_cache_url( url=url ) 
+
+        return render( request, 'clear.html' )        
